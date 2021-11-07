@@ -1,0 +1,51 @@
+/* Write your CSS here */
+.logo-container {
+  height: 120px;
+  width: 145px;
+  background-color: #ffffff;
+  border-style: solid;
+  border-width: 0px;
+  border-radius: 5px;
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.logo-size {
+  height: 45px;
+  width: 45px;
+}
+.logo-name {
+  font-size: 13px;
+  font-family: 'Bree Serif';
+}
+a {
+  text-decoration: none;
+}
+@media all and (width: 320px) and (height: 568px) {
+  .logo-container {
+    height: 100px;
+    width: 120px;
+  }
+  .logo-size {
+    height: 30px;
+    width: 30px;
+  }
+  .logo-name {
+    font-size: 11px;
+  }
+}
+@media all and (min-width: 768px) {
+  .logo-container {
+    height: 200px;
+    width: 200px;
+  }
+  .logo-size {
+    height: 80px;
+    width: 80px;
+  }
+  .logo-name {
+    font-size: 25px;
+  }
+}
